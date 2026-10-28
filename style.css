@@ -1,0 +1,29 @@
+.sf-main[data-surface='plugin.pdf.viewer'] {
+  overflow: auto;
+}
+.sf-main[data-surface='plugin.pdf.viewer'] [data-role='pdf.viewport'] {
+  width: 100%;
+  flex-shrink: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.sf-main[data-surface='plugin.pdf.viewer'] [data-role='pdf.page'] {
+  margin: 0 auto;
+}
+.sf-main[data-surface='plugin.pdf.viewer'] [data-role='pdf.pagebox'] {
+  flex-shrink: 0;
+  max-width: none;
+}
+.sf-main[data-surface='plugin.pdf.viewer'] .pdf-zoom-50 { width: 50%; }
+.sf-main[data-surface='plugin.pdf.viewer'] .pdf-zoom-67 { width: 67%; }
+.sf-main[data-surface='plugin.pdf.viewer'] .pdf-zoom-80 { width: 80%; }
+.sf-main[data-surface='plugin.pdf.viewer'] .pdf-zoom-100 { width: 100%; }
+.sf-main[data-surface='plugin.pdf.viewer'] .pdf-zoom-125 { width: 125%; }
+.sf-main[data-surface='plugin.pdf.viewer'] .pdf-zoom-150 { width: 150%; }
+.sf-main[data-surface='plugin.pdf.viewer'] .pdf-zoom-200 { width: 200%; }
+.sf-main[data-surface='plugin.pdf.viewer'] .pdf-zoom-250 { width: 250%; }
+.sf-main[data-surface='plugin.pdf.viewer'] .pdf-zoom-300 { width: 300%; }
+.sf-main[data-surface='plugin.pdf.viewer'] .pdf-zoom-400 { width: 400%; }
+.sf-dock[data-surface='plugin.pdf.viewer'] [data-role='pdf.status'] {
+  color: var(--t3);
+}

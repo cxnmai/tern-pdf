@@ -1,0 +1,14 @@
+schema = 1
+id = "pdf"
+name = "PDF Preview"
+version = "0.1.0"
+description = "Live PDF preview"
+icon = "file-pdf"
+host = "host.luau"
+window = "window.luau"
+styles = ["style.css"]
+
+[[blocks]]
+id = "viewer"
+title = "PDF Preview"
+files = ["*.pdf"]
