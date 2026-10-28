@@ -13,6 +13,9 @@
 .sf-main[data-surface='plugin.pdf.viewer'] [data-role='pdf.pagebox'] {
   flex-shrink: 0;
   max-width: none;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .sf-main[data-surface='plugin.pdf.viewer'] .pdf-zoom-50 { width: 50%; }
 .sf-main[data-surface='plugin.pdf.viewer'] .pdf-zoom-67 { width: 67%; }

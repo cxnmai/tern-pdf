@@ -53,6 +53,8 @@ PDF opens are routed to the PDF Viewer block. The Files pane also offers **Open 
 
 Zoom changes the displayed page immediately. Render resolution follows automatically, up to 4096 pixels per side; the previous image stays visible while sharper pixels load. Manual zoom switches to width mode, where 100% means fit-width, not physical PDF size. Zoom and fit mode are saved with the pane. The dock reports loading and rendering errors. Tern's window-level shortcuts take precedence over pane keys.
 
+Pages narrower than the pane are centered horizontally, including fit-page and zoomed-out views. Zoomed-in pages keep their left edge reachable and can be scrolled across their full width.
+
 
 ## Reload behavior
 
